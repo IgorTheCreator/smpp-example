@@ -1,0 +1,15 @@
+{
+  "name": "smpp-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "smpp": "^0.6.0-rc.4"
+  }
+}
