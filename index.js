@@ -1,10 +1,11 @@
 const smpp = require('smpp')
+require('dotenv').config()
 
 const config = {
-  login: 'login',
-  password: 'passwo',
-  url: 'smpp://smpp.smsaero.ru:2775',
-  phone_number: '9624059051',
+  login: process.env.login,
+  password: process.env.password,
+  url: process.env.url,
+  phone_number: process.env.phone_number,
   message: 'Сообщение от Node.js для Лучшего Студента ЮРГПУ(НПИ) им. М. Ю. Платова',
 }
 
